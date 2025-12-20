@@ -1,0 +1,242 @@
+[
+  {
+    "description": "Jean-Paul Vasseur's name should appear as \"JP. Vasseur\" in the document header",
+    "match": ["Vasseur"]
+  },
+  {
+    "description": "Jean-Louis Le Roux's name should appear as \"JL. Le Roux\" in the document header",
+    "match": ["Roux"]
+  },
+  {
+    "description": "A.B. Roach for Adam Roach; not A. Roach",
+    "match": ["Roach"]
+  },
+  {
+    "description": "D. Eastlake 3rd for Donald Eastlake; not D. Eastlake III",
+    "match": ["Eastlake"]
+  },
+  {
+    "description": "K. Lam for Hing-Kam Lam; not H-K. Lam (re. RFC 5951)",
+    "match": ["Lam"]
+  },
+  {
+    "description": "Ye-Kui Wang prefers \"Y.-K. Wang\" in the document header (per response to RFC 6184)",
+    "match": ["Wang"]
+  },
+  {
+    "description": "Iljitsch van Beijnum prefers that his last name be capitalized in footers (**check the PDF output**) as \"Van Beijnum\" but appear as \"van Beijnum\"  wherever preceded by his first name or initial (i.e., document header, Authors' Addresses) (RFC 5534, RFC 6384)",
+    "match": ["Beijnum"]
+  },
+  {
+    "description": "IJ. Wijnands for IJsbrand Wijnands; not I. Wijnands (see RFC 5496).  Also, he prefers his name with \"IJ\" capitalized because in Dutch, IJ is regarded as one letter (digraph)",
+    "match": ["Wijnands"]
+  },
+  {
+    "description": "Wouter C.A. Wijngaards Name should appear as \"W.C.A. Wijngaards\" in the document header",
+    "match": ["Wijngaards"]
+  },
+  {
+    "description": "For author D.T.V Ramakrishna Rao (RFCs 6148, 6925, 6926) Header: R. Desetti Authors' Addresses: D.T.V Ramakrishna Rao (searching for Ram Rao, Krishna Rao, Ramakrishna Rao, and Desetti)",
+    "match": ["Ram Rao", "Krishna Rao", "Ramakrishna Rao", "Desetti"]
+  },
+  {
+    "description": "Simon Pietro Romano prefers \"S P. Romano\" in the document header and \"Simon Pietro Romano\" in the Authors' Addresses section",
+    "match": ["S. Romano", "S Romano", "P. Romano", "Pietro"]
+  },
+  {
+    "description": "Hans Erik van Elburg prefers to use the initial \"J.\" in the document header: Header:  J. van Elburg In Authors' Addresses: Hans Erik van Elburg Note: RFCs 5502, 7044, and 7316 use the initial \"J.\" while RFC 7131 uses the initial \"H.\"",
+    "match": ["Elburg"]
+  },
+  {
+    "description": "Mach Chen prefers \"Mach(Guoyi) Chen\" in the Authors' Addresses section (no space before parenthesis) as was done in RFCs 5392, 6829, 7110, and 7130, per stated preference 2014-08-06 (The non-preferred form \"(Mach (Guoyi) Chen)\" was used in RFCs 5316 and 6965.)",
+    "match": ["Mach Chen", "(Guoyi)"]
+  },
+  {
+    "description": "Jamal Hadi Salim's surname is two words:  \"Hadi Salim\"",
+    "match": ["Salim"]
+  },
+  {
+    "description": "Oscar Gonzalez de Dios's surname is three words:  \"Gonzalez de Dios\" Per email of 1/24/2022 re. RFC 9181, he prefers that his name be written without any accents (although \"Oscar González de Dios\" appears in some subsequent 2022 AUTH48 emails from Oscar).",
+    "match": ["Dios"]
+  },
+  {
+    "description": "Michael StJohns wants his surname written as \"StJohns\" going forward",
+    "match": ["st johns", "st. johns", "st.johns"]
+  },
+  {
+    "description": "Carlos J. Bernardos:  Two initials (\"CJ.\") were used for RFCs 7028, 7148, 7161, and 7429.  (Only RFC 6276 uses the single initial.)  Go with two initials (CJ.) on first page. Full name in Authors' Addresses is \"Carlos J. Bernardos\".",
+    "match": ["Bernardos"]
+  },
+  {
+    "description": "Carlos Ralli Ucendo:  Name should appear as \"C. Ralli\" in the document header (response for RFC 7837) and \"Carlos Ralli Ucendo\" in Authors' Addresses",
+    "match": ["Ralli|Ucendo"]
+  },
+  {
+    "description": "Marc Groeneweg prefers full (both) initials in the document header, i.e., \"M.W. Groeneweg\"",
+    "match": ["Groeneweg"]
+  },
+  {
+    "description": "Rik Ribbers prefers full (both) initials in the document header, i.e., \"H.W. Ribbers\"",
+    "match": ["Ribbers"]
+  },
+  {
+    "description": "Antoin Verschuren prefers full (three) initials in the document header, i.e., \"A.L.J. Verschuren\"",
+    "match": ["Verschuren"]
+  },
+  {
+    "description": "Albert Cabellos prefers that his last name be listed in future RFCs as \"Cabellos\" -- not \"Cabellos-Aparicio\": (per email of 20 Feb. 2017)",
+    "match": ["Cabellos", "Aparicio"]
+  },
+  {
+    "description": "M-J. Saarinen:  For Markku-Juhani Saarinen, use \"M-J.\" on first-page header, per RFC 7693",
+    "match": ["Saarinen"]
+  },
+  {
+    "description": "For Jean-Marc Valin, use \"JM.\" (not \"J.\") on first-page header, per more common usage in recent RFCs",
+    "match": ["Valin"]
+  },
+  {
+    "description": "Niels ten Oever prefers that his last name be capitalized in footers (**check the PDF output**) as \"Ten Oever\" but appear as \"ten Oever\" wherever preceded by his first name or initial (i.e., document header, Authors' Addresses) (RFC 8280)",
+    "match": ["Oever"]
+  },
+  {
+    "description": "Gunter Van de Velde prefers that his last name be written in RFCs as \"Van de Velde\" (not \"Van De Velde\" or \"van de Velde\") (RFC 8273)",
+    "match": ["Velde"]
+  },
+  {
+    "description": "Miguel Angel Reina Ortega prefers that his name appear as \"M.A. Reina Ortega\" in the document header. (His first name is \"Miguel Angel,\" and his last name is \"Reina Ortega\") (RFC 8515). (searching for both \"Reina\" and \"Ortega\")",
+    "match": ["Ortega", "Reina "]
+  },
+  {
+    "description": "Alberto Gonzalez Prieto's surname is two words:  \"Gonzalez Prieto\"",
+    "match": ["Prieto"]
+  },
+  {
+    "description": "Mirja Kuehlewind's last name should appear as either \"Kuehlewind\" or \"Kühlewind\" (with the umlaut (ü)). Update if needed, per the original document (i.e., with either the ASCII \"ue\" spelling or the umlaut). Note that \"Kuhlewind\" (no umlaut) would be a misspelling.",
+    "match": ["Kuhl", "Kühl", "Kuehl"]
+  },
+  {
+    "description": "Michael Tuexen's last name should appear as either \"Tuexen\" or \"Tüxen\" (with the umlaut (ü)). Update if needed, per the original document (i.e., with either the ASCII \"ue\" spelling or the umlaut). Note that \"Tuxen\" (no umlaut) would be a misspelling.",
+    "match": ["Tuxe", "Tüxe", "Tuexe"]
+  },
+  {
+    "description": "Search for \"daniel.voyer@bell.ca\" where it should be \"Voyer, D.\" or \"D. Voyer\"",
+    "match": ["voyer"]
+  },
+  {
+    "description": "Search for \"bogdanov@google.com\" where it should be \"Bogdanov, A.\" or \"A. Bogdanov\"",
+    "match": ["bogdanov"]
+  },
+  {
+    "description": "Search for \"(Juniper) Networks\" where it should be \"Pallagatti, S.\" or \"S. Pallagatti\"",
+    "match": ["Networks, J.", "J. Networks,"]
+  },
+  {
+    "description": "Search for \"Tirumaleswar Reddy\" where it should now be \"T. Reddy.K\" and \"Tirumaleswar Reddy.K\" (per RFC 8768)",
+    "match": ["T. Reddy", "Tirum"]
+  },
+  {
+    "description": "Jose Javier Garcia Aranda prefers his initials to be \"J.J.\" in the first-page header (i.e., \"J.J. Aranda)\" and \"Jose Javier Garcia Aranda\" in Authors' Addresses (per RFC 8802)",
+    "match": ["Aranda"]
+  },
+  {
+    "description": "Iñaki Martínez-Sarriegui's last name is hyphenated (surname in XML should be \"Martínez-Sarriegui\") (RFC 8802)",
+    "match": ["Sarriegui"]
+  },
+  {
+    "description": "Éric Vyncke's first name (including first initial on the first page) should be spelled with the acute-accented \"É\" (RFC 8801)",
+    "match": ["Vyncke"]
+  },
+  {
+    "description": "Jose M. Recio prefers his initials to be \"JM.\" on the first-page header (per RFC 8873) Full name in Authors' Addresses is \"Jose M. Recio\".",
+    "match": ["Recio"]
+  },
+  {
+    "description": "Maria Ines Robles prefers her initials to be \"M.I.\" on the first-page header (per RFC 9008) Full name in Authors' Addresses is \"Maria Ines Robles\".",
+    "match": ["Robles"]
+  },
+  {
+    "description": "kc claffy prefers all lowercase -- (preference stated for RFC 9075) (FYI that RFCs 2186 and 2187 use \"K. Claffy\") (Note:  xml2rfc will sometimes add a period after \"kc\"; a fix is not an option as of July 2021)",
+    "match": ["claffy"]
+  },
+  {
+    "description": "John Preuß Mattsson's last name is \"Preuß Mattsson\", so he asks that his last name be written that way going forward (i.e., John Preuß Mattsson, J. Preuß Mattsson instead of John Mattsson or J. Mattsson) (RFC 9175).",
+    "match": ["Mattsson"]
+  },
+  {
+    "description": "Luis Munoz (feedback re. RFC 9181) prefers that his last name be written as \"Munoz\" (i.e., no accented \"n\").",
+    "match": ["Munoz"]
+  },
+  {
+    "description": "Kazuho Oku (feedback re. RFC 9218) prefers that their name be written with a space in it (will appear as \"奥 一穂\" on front page and elsewhere). (Case-insensitive search for \"oku\" will yield hits for \"lookup\" also.) See the Author Name Preferences Wiki page for how to list Kazuho's name in XML.",
+    "match": ["oku", "一穂"]
+  },
+  {
+    "description": "Christopher Wood (feedback re. RFCs 9257 and 9258): \"I prefer C. A. Wood if possible.\"",
+    "match": ["Wood"]
+  },
+  {
+    "description": "Gábor Lencse prefers the non-ASCII \"á\" -- \"Gábor\"  rather than \"Gabor\" (feedback re. RFC 9313)",
+    "match": ["Lencse"]
+  },
+  {
+    "description": "Jordi Palet Martinez's surname is \"Palet Martinez\". Document header should read \"J. Palet Martinez\".",
+    "match": ["Jordi"]
+  },
+  {
+    "description": "Tony Przygienda (sometimes listed as Antoni Przygienda) prefers \"Tony\" or \"T. Przygienda\" per mail 2023-03-21",
+    "match": ["Przygienda"]
+  },
+  {
+    "description": "Jan Včelák prefers the two non-ASCII letters in last name -- \"Včelák\"  rather than \"Vcelak\" (feedback re. RFC 9381)",
+    "match": ["Vcelak"]
+  },
+  {
+    "description": "Jérôme Lacan prefers the ASCII spelling of his first name -- \"Jerome\"",
+    "match": ["Lacan"]
+  },
+  {
+    "description": "Steven M. Bellovin prefers the initials \"S. M.\" in the header of the RFC (feedback re. RFC 9446)",
+    "match": ["Bellovin"]
+  },
+  {
+    "description": "Thangavelu Arumugam prefers that their first name be written as \"Thangavelu\" rather than \"Thangam\" (feedback re. RFC 9418)",
+    "match": ["Arumugam"]
+  },
+  {
+    "description": "Zheng (Sandy) Zhang:  Full name should be \"Zheng (Sandy) Zhang\" and not \"Zheng(Sandy) Zhang\" or \"Zheng Zhang\" First-page header should show \"Z. Zhang\" (feedback re. RFC 9466), so this script checks for both \"Zheng\" and \"Zhang\"",
+    "match": ["Zhang", "Zheng"]
+  },
+  {
+    "description": "Colin S. Perkins prefers that his middle initial be used in the document header (C. S. Perkins) and \"Colin S. Perkins\" in the Authors' addresses section, to disambiguate from Charlie Perkins (feedback re. RFC 9547)",
+    "match": ["Perkins"]
+  },
+  {
+    "description": "Paul Leach prefers that his full name be written as \"Paul J. Leach\" (feedback re. RFC 9562) Note:  The first-page header of RFC 9562 shows \"P. Leach\"",
+    "match": ["Leach"]
+  },
+  {
+    "description": "Michael Jones (michael_b_jones@hotmail.com as of 6/4/2024)  wants his name with initials listed as \"M.B. Jones\"  (feedback re. RFC 9596)",
+    "match": ["Jones"]
+  },
+  {
+    "description": "Michel Veillette wants one initial (not two) in RFCs going forward  (i.e., \"M. Veillette\" and not \"M. V. Veillette\")  (feedback re. RFC 9595)",
+    "match": ["Veillette"]
+  },
+  {
+    "description": "Ed Birrane prefers that his name appear as \"E. Birrane, III\"  on the first page of RFCs and \"Edward J. Birrane, III\"  in the Authors' Addresses section, per RFCs 9171, 9172, and 9173  (7/22/2024 feedback re. draft-ietf-dtn-dtnma)",
+    "match": ["Birrane"]
+  },
+  {
+    "description": "Sarah Heiner wants one initial (not two) in RFCs going forward  (i.e., \"S. Heiner\", per RFC 9173)  (7/22/2024 feedback re. draft-ietf-dtn-dtnma)",
+    "match": ["Heiner"]
+  },
+  {
+    "description": "Poul-Henning Kamp prefers that his name appear as \"P-H. Kamp\"  on the first page of RFCs  (9/26/2024 feedback re. draft-ietf-httpbis-sfbis)",
+    "match": ["Kamp"]
+  },
+  {
+    "description": "Guy Fedorkow prefers that his name appear as \"G. C. Fedorkow\"  on the first page of RFCs  (11/7/2024 feedback re. draft-ietf-rats-tpm-based-network-device-attest)",
+    "match": ["Fedorkow"]
+  }
+]
