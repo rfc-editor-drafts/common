@@ -120,19 +120,19 @@
     "match": ["Tuxe", "Tüxe", "Tuexe"]
   },
   {
-    "description": "Search for \"daniel.voyer@bell.ca\" where it should be \"Voyer, D.\" or \"D. Voyer\"",
+    "description": "Instances of \"daniel.voyer@bell.ca\" should be \"Voyer, D.\" or \"D. Voyer\"",
     "match": ["voyer"]
   },
   {
-    "description": "Search for \"bogdanov@google.com\" where it should be \"Bogdanov, A.\" or \"A. Bogdanov\"",
+    "description": "Instances of \"bogdanov@google.com\" should be \"Bogdanov, A.\" or \"A. Bogdanov\"",
     "match": ["bogdanov"]
   },
   {
-    "description": "Search for \"(Juniper) Networks\" where it should be \"Pallagatti, S.\" or \"S. Pallagatti\"",
+    "description": "Instances of \"(Juniper) Networks\" should be \"Pallagatti, S.\" or \"S. Pallagatti\"",
     "match": ["Networks, J.", "J. Networks,"]
   },
   {
-    "description": "Search for \"Tirumaleswar Reddy\" where it should now be \"T. Reddy.K\" and \"Tirumaleswar Reddy.K\" (per RFC 8768)",
+    "description": "Instaces of \"Tirumaleswar Reddy\" should now be \"T. Reddy.K\" and \"Tirumaleswar Reddy.K\" (per RFC 8768)",
     "match": ["T. Reddy", "Tirum"]
   },
   {
@@ -238,5 +238,17 @@
   {
     "description": "Guy Fedorkow prefers that his name appear as \"G. C. Fedorkow\"  on the first page of RFCs  (11/7/2024 feedback re. draft-ietf-rats-tpm-based-network-device-attest)",
     "match": ["Fedorkow"]
+  },
+  {
+    "description": "Instances of \"Faucheur\" should be \"Le Faucheur\"",
+    "match": ["Faucheur"]
+  },
+  {
+    "description": "Instances of \"Brandenburd\" should be \"van Brandenburg\"",
+    "match": ["Brandenburg"]
+  },
+  {
+    "description": "Check spelling of \"Farrel\" and \"Farel\" for Adrian Farrel's and Stephen Farrell's names",
+    "match": ["Farrel", "Farel"]
   }
 ]
