@@ -239,16 +239,48 @@
     "description": "Guy Fedorkow prefers that his name appear as \"G. C. Fedorkow\"  on the first page of RFCs  (11/7/2024 feedback re. draft-ietf-rats-tpm-based-network-device-attest)",
     "match": ["Fedorkow"]
   },
+    {
+    "description": "Sergio Garcia Murillo prefers his name appears as \"S. Garcia Murillo\" in the first page of RFCs (this was done for RFCs 8079, 9335, 9725 but not for RFC 9605) (2/3/2025 feedback re draft-ietf-wish-whip-16)"
+    "match": ["Murillo"]
+  },
+  {
+    "description": "Luc André Burdet prefers his name w/ the accent on the e and \"LA. Burdet\" in the first-page header."
+    "match": ["Burdet"]
+  },
+  {
+    "description": "Pierre-Anthony Lemieux prefers his name as \"P.-A. Lemieux\" (double initials) in the first-page header per feedback for RFC 9828. Note that this differs from RFCs 7302 and 7972, where his name appears as \"P. Lemieux\" (single initial)."
+    "match": ["Lemieux"]
+  },
+  {
+    "description": "Bob Hinden prefers that his name appear as \"R. Hinden\" on the first page of RFCs (per feedback re. RFC 9844)."
+    "match": ["Hinden"]
+  },
+  {
+    "description": "Alberto García-Martínez prefers that his last name appear as \"García-Martínez\" (i.e., with the accents) (per feedback re. RFC 9840)."
+    "match": ["Martínez", "Martinez"]
+  },
+  {
+    "description": "Mike Heard prefers that his name appear as \"C. M. (Mike) Heard\" in the Authors' Addresses section. He also prefers that his name appear as \"C. Heard\" in the document header to match RFCs 3638, 4181, and 4841. (9/16/2025 feedback re. draft-ietf-tsvwg-udp-options/RFC 9868)"
+    "match": ["Heard"]
+  },
+  {
+    "description": "Luis M. Contreras prefers that his name appear as \"LM. Contreras\" in the first-page header and \"Luis M. Contreras\" in the Authors' Addresses section. Note that \"L. Contreras\" was used in RFCs 9543, 9439, 9013, but \"LM. Contreras\" was used in RFCs 8597, 8568, 8432, 7161, 7028 (feedback for RFC 9889 on 10/31/2025)"
+    "match": ["Contreras"]
+  },
+  {
+    "description": "Bas Westerbaan prefers that his name appear as \"B. E. Westerbaan\" in the first-page header and \"Bas Westerbaan\" in the Authors' Addresses section (10/28/2025 feedback for RFC 9881)"
+    "match": ["Westerbaan"]
+  },
   {
     "description": "Instances of \"Faucheur\" should be \"Le Faucheur\"",
     "match": ["Faucheur"]
   },
   {
-    "description": "Instances of \"Brandenburd\" should be \"van Brandenburg\"",
+    "description": "Instances of \"Brandenburg\" should be \"van Brandenburg\"",
     "match": ["Brandenburg"]
   },
   {
     "description": "Check spelling of \"Farrel\" and \"Farel\" for Adrian Farrel's and Stephen Farrell's names",
-    "match": ["Farrel", "Farel"]
+    "match": ["Farrel", "Farel", "Farrell"]
   }
 ]
