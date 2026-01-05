@@ -281,6 +281,6 @@
   },
   {
     "description": "Check spelling of \"Farrel\" and \"Farel\" for Adrian Farrel's and Stephen Farrell's names",
-    "match": ["Farrel", "Farel", "Farrel"]
+    "match": ["Farrel", "Farel", "Farrell"]
   }
 ]
