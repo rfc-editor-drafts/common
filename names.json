@@ -168,8 +168,8 @@
     "match": ["Munoz"]
   },
   {
-    "description": "Kazuho Oku (feedback re. RFC 9218) prefers that their name be written with a space in it (will appear as \"奥 一穂\" on front page and elsewhere). (Case-insensitive search for \"oku\" will yield hits for \"lookup\" also.) See the Author Name Preferences Wiki page for how to list Kazuho's name in XML.",
-    "match": ["oku", "一穂"]
+    "description": "Kazuho Oku (feedback re. RFC 9218) prefers that their name be written with a space in it (will appear as \"奥 一穂\" on front page and elsewhere). See the Author Name Preferences Wiki page for how to list Kazuho's name in XML.",
+    "match": ["Oku", "一穂"]
   },
   {
     "description": "Christopher Wood (feedback re. RFCs 9257 and 9258): \"I prefer C. A. Wood if possible.\"",
