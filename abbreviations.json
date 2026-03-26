@@ -7027,6 +7027,10 @@
     "full": "Multicast Listener Discovery Version 2"
   },
   {
+    "term": "ML-DSA",
+    "full": "Module-Lattice-Based Digital Signature Standard"
+  },
+  {
     "term": "mLDP",
     "full": "Multipoint LDP",
     "note": "Per guidance, intentionally not as in RFC 6388 (mLDP:  Multipoint extensions for LDP) confirmed by WG chair and AD"
