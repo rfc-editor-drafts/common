@@ -3692,7 +3692,7 @@
     "term": "EOR",
     "wellknown": true,
     "full": "exclusive or",
-    "note": "In logical operations, the exclusive disjunction, also called exclusive or, (symbolized XOR or EOR), is a type of logical disjunction on two operands that results in a value of \"true\" if and only if { \"term\": \"actly one of the operands has a value of \"true.\"  (Wikipedia)"
+    "note": "In logical operations, the exclusive disjunction, also called exclusive or, (symbolized XOR or EOR), is a type of logical disjunction on two operands that results in a value of \"true\" if and only if exactly one of the operands has a value of \"true.\"  (Wikipedia)"
   },
   {
     "term": "EPA",
@@ -6937,7 +6937,7 @@
   {
     "term": "MIDI",
     "full": "MIDI (Musical Instrument Digital Interface)",
-    "note": "Typically not expanded. If expanded, make MIDI primary, that is, use \"MIDI (Musical Instrument Digital Interface)\", not \"Musical Instrument Digital Interface (MIDI)\"; per { \"term\": \"C Editor note for RFCs 4695 and 4696"
+    "note": "Typically not expanded. If expanded, make MIDI primary, that is, use \"MIDI (Musical Instrument Digital Interface)\", not \"Musical Instrument Digital Interface (MIDI)\"; per RFC Editor note for RFCs 4695 and 4696"
   },
   {
     "term": "MIF",
@@ -10608,7 +10608,7 @@
   {
     "term": "SAID",
     "full": "Security Association ID",
-    "note": "Historically (in early drafts) \"SAId\" was used in MIB object names and also in enumeration values like \"Said\"; can leave them as is mainly because:\\ a) NMS vendors and operators are familiar with that syntax for OBJECT names involving SAIDs\\ b) It is risky to make global replace that could lead to SNMP syntax errors on deployment (e.g., global replace of SAId for SAID)\\ OK to change in DESCRIPTION Clauses { \"term\": \"LY:\\ \"(SAID)\" instead of \"(SAId)\"\\ \"SAID\" instead of \"SAId\""
+    "note": "Historically (in early drafts) \"SAId\" was used in MIB object names and also in enumeration values like \"Said\"; can leave them as is mainly because:\\ a) NMS vendors and operators are familiar with that syntax for OBJECT names involving SAIDs\\ b) It is risky to make global replace that could lead to SNMP syntax errors on deployment (e.g., global replace of SAId for SAID)\\ OK to change in DESCRIPTION Clauses ONLY:\\ \"(SAID)\" instead of \"(SAId)\"\\ \"SAID\" instead of \"SAId\""
   },
   {
     "term": "SALT",
@@ -11363,7 +11363,7 @@
     "term": "SOAP",
     "wellknown": true,
     "full": "Simple Object Access Protocol",
-    "note": "But \"a Web services messaging protocol; originally the acronym for Simple Object Access Protocol, the term is no longer defined in common use\" -IEEE Computer Society \"In previous { \"term\": \"rsions of this specification the SOAP name was an acronym. This is no longer the case.\" - https://www.w3.org/TR/2007/REC-soap12-part1-20070427/"
+    "note": "But \"a Web services messaging protocol; originally the acronym for Simple Object Access Protocol, the term is no longer defined in common use\" -IEEE Computer Society \"In previous versions of this specification the SOAP name was an acronym. This is no longer the case.\" - https://www.w3.org/TR/2007/REC-soap12-part1-20070427/"
   },
   {
     "term": "SoC",
