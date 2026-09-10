@@ -1941,6 +1941,10 @@
     "full": "Configuration Management Database"
   },
   {
+    "term": "CMO",
+    "full": "Control Message Option"
+  },
+  {
     "term": "CMP",
     "full": "Certificate Management Protocol"
   },
@@ -2434,6 +2438,10 @@
   {
     "term": "d-CW",
     "full": "DetNet Control Word"
+  },
+  {
+    "term": "D-PATH",
+    "full": "Domain Path"
   },
   {
     "term": "DA",
@@ -3329,8 +3337,16 @@
     "full": "Extensible Authentication Protocol Tunneled Transport Layer Security"
   },
   {
+    "term": "EAR",
+    "full": "EAT Attestation Result"
+  },
+  {
     "term": "EARO",
     "full": "Extended Address Registration Option"
+  },
+  {
+    "term": "EAT",
+    "full": "Entity Attestation Token"
   },
   {
     "term": "EATF",
@@ -4630,6 +4646,10 @@
     "full": "Home Agent Controller"
   },
   {
+    "term": "HARQ",
+    "full": "Hybrid Automatic Repeat Request"
+  },
+  {
     "term": "HAS",
     "full": "HTTP Adaptive Streaming"
   },
@@ -5588,6 +5608,10 @@
     "full": "iSCSI Extensions for RDMA"
   },
   {
+    "term": "ISF",
+    "full": "Inter-Subnet Forwarding"
+  },
+  {
     "term": "ISI",
     "full": "Information Sciences Institute"
   },
@@ -6209,6 +6233,14 @@
     "full": "Logical Key Hierarchy"
   },
   {
+    "term": "LLA",
+    "full": "Link-Layer Address"
+  },
+  {
+    "term": "LLA",
+    "full": "Link-Local Address"
+  },
+  {
     "term": "LLC",
     "full": "Logical Link Control"
   },
@@ -6368,6 +6400,11 @@
   {
     "term": "LQI",
     "full": "Link Quality Indication"
+  },
+  {
+    "term": "LR-WPAN",
+    "full": "Low-Rate Wireless Personal Area Network",
+    "note": "IEEE 802.15.4"
   },
   {
     "term": "LRA",
@@ -8460,12 +8497,20 @@
     "full": "Provider"
   },
   {
+    "term": "P-DAO",
+    "full": "Projected DAO"
+  },
+  {
     "term": "P-GW",
     "full": "Packet Data Network Gateway"
   },
   {
     "term": "P-PCE",
     "full": "Parent PCE"
+  },
+  {
+    "term": "P-Route",
+    "full": "Projected Route"
   },
   {
     "term": "P2C",
@@ -8585,6 +8630,10 @@
   {
     "term": "PAR",
     "full": "Pushed Authorization Request"
+  },
+  {
+    "term": "PAREO",
+    "full": "Packet ARQ, Replication, Elimination, and Overhearing"
   },
   {
     "term": "PASSporT",
@@ -8794,6 +8843,14 @@
   {
     "term": "PDP",
     "full": "Packet Data Protocol"
+  },
+  {
+    "term": "PDR",
+    "full": "P-DAO Request"
+  },
+  {
+    "term": "PDR",
+    "full": "packet delivery ratio"
   },
   {
     "term": "PDS",
@@ -9288,6 +9345,10 @@
   {
     "term": "PQC",
     "full": "post-quantum cryptosystem"
+  },
+  {
+    "term": "PQC",
+    "full": "Post-Quantum Cryptography"
   },
   {
     "term": "PR",
@@ -9964,6 +10025,10 @@
     "full": "routing gateway"
   },
   {
+    "term": "RH",
+    "full": "Routing Header"
+  },
+  {
     "term": "RH3",
     "full": "type 3 Routing Header for IPv6"
   },
@@ -10440,6 +10505,10 @@
   {
     "term": "RTO",
     "full": "retransmission timeout"
+  },
+  {
+    "term": "RTO",
+    "full": "RPL Target Option"
   },
   {
     "term": "RTP",
@@ -11888,6 +11957,11 @@
     "full": "Type Allocation Code"
   },
   {
+    "term": "TACACS+",
+    "full": "Terminal Access Controller Access-Control System Plus",
+    "note": "RFC 8907"
+  },
+  {
     "term": "TAE",
     "full": "Timing Alignment Error"
   },
@@ -12355,6 +12429,10 @@
   {
     "term": "TSO",
     "full": "TCP Segmentation Offload"
+  },
+  {
+    "term": "TST",
+    "full": "TimeStampToken"
   },
   {
     "term": "TSTN",
