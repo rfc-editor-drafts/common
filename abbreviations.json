@@ -1590,10 +1590,6 @@
     "full": "Concise Data Definition Language"
   },
   {
-    "term": "CCDR",
-    "full": "Centralized Control Dynamic Routing"
-  },
-  {
     "term": "CDF",
     "full": "Comma-Delimited Format"
   },
@@ -2011,6 +2007,7 @@
   },
   {
     "term": "CoAP",
+    "wellknown": true,
     "full": "Constrained Application Protocol"
   },
   {
@@ -4445,7 +4442,7 @@
     "full": "General Internet Signaling Transport"
   },
   {
-    "term": "GLO",
+    "term": "GLB",
     "full": "Global Locator Block"
   },
   {
@@ -6968,8 +6965,9 @@
     "full": "Media Identification"
   },
   {
-    "term": "midcom",
-    "full": "Middlebox Communications"
+    "term": "MIDCOM",
+    "full": "Middlebox Communications",
+    "note": "sometimes lowercase \"midcom\""
   },
   {
     "term": "MIDI",
@@ -7071,10 +7069,6 @@
     "term": "mLDP",
     "full": "Multipoint LDP",
     "note": "Per guidance, intentionally not as in RFC 6388 (mLDP:  Multipoint extensions for LDP) confirmed by WG chair and AD"
-  },
-  {
-    "term": "MLDv2",
-    "full": "Multicast Listener Discovery Version 2"
   },
   {
     "term": "MLE",
@@ -7742,7 +7736,7 @@
   {
     "term": "NETCONF",
     "full": "Network Configuration Protocol",
-    "note": "Not typically expanded in titles, but expand in abstract."
+    "note": "Not typically expanded in titles, but expand in abstract/running text."
   },
   {
     "term": "NetInf",
@@ -8135,10 +8129,6 @@
     "full": "Network Virtualization Using Generic Routing Encapsulation"
   },
   {
-    "term": "NVT",
-    "full": "Network Virtual Terminal"
-  },
-  {
     "term": "NVO",
     "full": "Network Virtualization Overlay"
   },
@@ -8523,10 +8513,6 @@
   {
     "term": "P2MP",
     "full": "Peer-to-Multipeer"
-  },
-  {
-    "term": "P2C",
-    "full": "provider-to-customer"
   },
   {
     "term": "P2P",
@@ -12718,8 +12704,8 @@
     "full": "User Network Interface"
   },
   {
-    "term": "",
-    "full": "User-Network Interface (UNI)",
+    "term": "UNI",
+    "full": "User-Network Interface",
     "note": "hyphenated form preferred for clarity"
   },
   {
@@ -13516,29 +13502,25 @@
     "full": "zone key derivation function"
   },
   {
+    "term": "ZKPP",
+    "full": "Zero-Knowledge Password Proof"
+  },
+  {
     "term": "ZRTP",
     "wellknown": true,
     "full": "",
     "note": "RFC 6189"
   },
   {
-    "term": "ZWP",
-    "full": "Zero Window Probe"
-  },
-  {
     "term": "zsh",
     "full": "Z SHell"
-  },
-  {
-    "term": "ZKPP",
-    "full": "Zero-Knowledge Password Proof"
-  },
-  {
-    "term": "ZRTP",
-    "wellknown": true
   },
   {
     "term": "ZSK",
     "full": "Zone Signing Key"
   }
+  {
+    "term": "ZWP",
+    "full": "Zero Window Probe"
+  },
 ]
