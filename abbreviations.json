@@ -51,7 +51,7 @@
   },
   {
     "term": "6CIO",
-    "full": "6LoWPAN Capability Indication"
+    "full": "6LoWPAN Capability Indication Option"
   },
   {
     "term": "6CO",
@@ -2925,7 +2925,7 @@
     "full": "distribution point"
   },
   {
-    "term": "DS",
+    "term": "DP",
     "full": "DNSSEC Policy"
   },
   {
@@ -3209,7 +3209,7 @@
     "full": "Duplicate Acknowledgment"
   },
   {
-    "term": "DupThresh ",
+    "term": "DupThresh",
     "full": "Duplicate Acknowledgment Threshold (DupThresh)"
   },
   {
@@ -3363,7 +3363,7 @@
   },
   {
     "term": "EC2N",
-    "full": "Elliptic Curve Group over GF[2<nowiki>^</nowiki>N]",
+    "full": "Elliptic Curve Group over GF[2^N]",
     "note": "as in EC2N group"
   },
   {
@@ -3665,7 +3665,7 @@
     "term": "ENUM",
     "wellknown": true,
     "full": "",
-    "note": "Refers generally to a telephone numbering plan. However, the term ENUM is universal, whereas Telephone Number Mapping is not.  There are ENUM activities and organizations all over the world.  The { \"term\": \"ong name\" of the ENUM WG is the anomaly, because ENUM is not an abbreviation, despite appearances."
+    "note": "Refers generally to a telephone numbering plan. However, the term ENUM is universal, whereas Telephone Number Mapping is not.  There are ENUM activities and organizations all over the world.  The \"long name\" of the ENUM WG is the anomaly, because ENUM is not an abbreviation, despite appearances."
   },
   {
     "term": "EOF",
@@ -4482,7 +4482,7 @@
     "full": "GNU Name System"
   },
   {
-    "term": "GPS",
+    "term": "GNSS",
     "full": "Global Navigation Satellite System"
   },
   {
@@ -7076,7 +7076,7 @@
     "full": "Mobility Management"
   },
   {
-    "term": "",
+    "term": "MMA",
     "full": "MIDI Manufacturers Association"
   },
   {
@@ -7186,7 +7186,7 @@
     "full": "Multipoint-to-Multipoint"
   },
   {
-    "term": "MMA",
+    "term": "MPA",
     "full": "Marker PDU Aligned (MPA) Framing for TCP"
   },
   {
@@ -9067,7 +9067,7 @@
     "full": "Packet Loss Concealment"
   },
   {
-    "term": "Rule",
+    "term": "PLC",
     "full": "Policy (Rule) Lifetime Change (PLC)"
   },
   {
@@ -9327,7 +9327,7 @@
   },
   {
     "term": "PREOF",
-    "full": "Packet Replication, Elimination and Ordering Functions"
+    "full": "Packet Replication, Elimination, and Ordering Functions"
   },
   {
     "term": "PRF",
@@ -11044,7 +11044,7 @@
   {
     "term": "SID",
     "full": "segment identifier",
-    "note": "From RFC 8402: SID: a segment identifier. Note that the term SID is commonly used in place of the term \"Segment\", though this is technically imprecise as it overlooks any necessary { \"term\": \"anslation."
+    "note": "From RFC 8402: SID: a segment identifier. Note that the term SID is commonly used in place of the term \"Segment\", though this is technically imprecise as it overlooks any necessary translation."
   },
   {
     "term": "SID",
@@ -11064,7 +11064,7 @@
     "note": "Per guidance, \"Silence Descriptor\" or \"Silence Insertion Description\". The 3GPP and ETSI definition seems to be the former. Ingemar Johansson (author)"
   },
   {
-    "term": "::",
+    "term": "SID",
     "full": "Silence Insertion Descriptor (SID)"
   },
   {
